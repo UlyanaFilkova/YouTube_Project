@@ -5,6 +5,7 @@ body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
+  background-color: var(--var-main-bg-color);
 }
 
 .wrapper {
@@ -41,8 +42,23 @@ body {
   display: flex;
   align-items: center;
 }
+.header__burger-button svg path {
+  fill: var(--var-burger-button-color);
+}
 .header__logo {
   width: 116px;
+}
+
+.header__logo-img_light {
+  display: none;
+}
+
+.dark_mode .header__logo-img {
+  display: none;
+}
+
+.dark_mode .header__logo-img_light {
+  display: block;
 }
 
 .header__right {
@@ -90,7 +106,7 @@ body {
   align-items: center;
 }
 
-.header__search-button_mobile{
+.header__search-button_mobile {
   display: none;
 }
 
@@ -105,6 +121,10 @@ body {
 .header__userpic {
   display: flex;
   align-items: center;
+}
+
+.header__button svg path {
+  fill: var(--var-seventh-font-color);
 }
 
 .header__button_notifications {
@@ -173,7 +193,7 @@ body {
 }
 
 .aside__h4 {
-  color: #000;
+  color: var(--var-accent-font-color);
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 7px;
@@ -208,7 +228,7 @@ body {
 }
 
 .aside__button_active {
-  color:  var(--var-important-font-color);
+  color: var(--var-important-font-color);
 }
 
 .aside__icon {
@@ -261,7 +281,7 @@ body {
   overflow: hidden;
 }
 
-.header__left-text{
+.header__left-text {
   display: flex;
   align-items: end;
   gap: 20px;
@@ -273,7 +293,7 @@ body {
 }
 .section__header-description {
   font-size: 16px;
-  color: var(--var-forth-font-color);
+  color: var(--var-header-description-font-color);
   margin-bottom: 2px;
 }
 .section__header-right {
@@ -296,7 +316,7 @@ body {
 .section__nav-button {
   width: 28px;
   height: 28px;
-  background-color: var(--var-third-bg-color);
+  background-color: var(--var-section-nav-color);
   border-radius: 14px;
 }
 
@@ -309,7 +329,7 @@ body {
 }
 
 .section__nav-button svg path {
-  fill: var(--var-sixth-font-color);
+  fill: var(--var-section-nav-arrow-color);
 }
 .section__video-list {
   display: flex;
@@ -369,7 +389,7 @@ body {
 .video-item__views-and-data,
 .video-item__author {
   font-size: 13px;
-  color: var(--var-forth-font-color);
+  color: var(--var-video-description-color);
 }
 
 .video-item__views-and-data pre {
@@ -378,10 +398,10 @@ body {
 
 /* #endregion*/
 
-.nav-mobile{
+.nav-mobile {
   display: none;
 }
 
-.nav-mobile-back{
+.nav-mobile-back {
   display: none;
 }

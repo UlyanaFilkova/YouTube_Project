@@ -19,7 +19,7 @@
 
   .wrapper {
     padding: 10px 16px 0 16px;
-    gap: 15px;
+    gap: 20px;
   }
 
   .header {
@@ -51,4 +51,19 @@
     display: block;
     height: 19px;
   }
+
+  .section__video-list{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .video-item{
+    width: 100%;
+    
+  }
+  .video-item__img{
+    height: calc(0.521*(100vw - 32px));
+    margin-bottom: 9px;
+  }
+  
 }

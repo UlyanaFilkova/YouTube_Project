@@ -1,0 +1,8 @@
+@media (max-width: 1400px) {
+  .section__header {
+    padding-right: 3vw;
+  }
+  .main{
+    gap: 40px;
+  }
+}

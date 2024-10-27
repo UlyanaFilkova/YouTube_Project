@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-* {
-  font-family: "Inter", sans-serif, "Open Sans", "Segoe UI", Tahoma, Helvetica,
-    Verdana, sans-serif;
-}
-
 /* Убираем внутренние отступы */
 ul[class],
 ol[class] {

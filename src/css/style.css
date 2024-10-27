@@ -11,7 +11,10 @@ body {
   flex-direction: column;
   gap: 30px;
   height: 100%;
-  margin-top: 20px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* #region HEADER*/
@@ -20,12 +23,13 @@ body {
   height: 84px;
   display: flex;
   gap: 60px;
+  padding: 20px 0;
 }
 
 .header__left {
   width: 196px;
   height: 100%;
-  padding-left: 32px;
+  padding-left: 31px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,7 +79,6 @@ body {
 }
 
 .header__search-input::placeholder {
-  font-family: "Mulish", sans-serif;
   font-size: 16px;
   color: var(--var-third-font-color);
 }
@@ -141,8 +144,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 60px;
-  padding: 0 0 40px 32px;
+  gap: 103px;
+  padding: 0 0 40px 31px;
   color: var(--var-second-font-color);
 }
 
@@ -155,11 +158,11 @@ body {
 .aside__ul {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 29px;
 }
 
 .aside__ul_subscriptions {
-  gap: 30px;
+  gap: 23px;
 }
 
 .aside__h4 {
@@ -172,7 +175,7 @@ body {
 .aside__button {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 13px;
   font-size: 16px;
   width: 100%;
   color: #898989;
@@ -181,6 +184,10 @@ body {
 
 .aside__button_subscriptions {
   gap: 11px;
+}
+
+.aside__button_footer{
+  color: var(--var-forth-font-color);
 }
 
 .aside__img {
@@ -201,7 +208,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
+  width: 22px;
 }
 
 .aside__icon svg path {

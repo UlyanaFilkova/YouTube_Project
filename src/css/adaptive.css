@@ -4,14 +4,20 @@
   }
 }
 
-@media (max-width: 900px) {
-  .header__button,
-  .section__header-description {
+@media (max-width: 1100px) {
+  .header__button {
     display: none;
   }
   .header__search-bar {
     width: 80%;
   }
+}
+
+@media (max-width: 900px) {
+  .section__header-description {
+    display: none;
+  }
+
   .header__right {
     padding-right: 20px;
   }

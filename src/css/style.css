@@ -41,10 +41,12 @@ body {
 .header__burger-button {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .header__burger-button svg path {
   fill: var(--var-burger-button-color);
 }
+
 .header__logo {
   width: 116px;
 }
@@ -89,6 +91,7 @@ body {
   background-color: inherit;
   padding: 0;
   font-size: 16px;
+  color: var(--var-accent-font-color);
 }
 
 .header__search-input:focus {
@@ -107,6 +110,10 @@ body {
   align-items: center;
 }
 
+.header__search-button svg path {
+  fill: var(--var-accent-font-color);
+}
+
 .header__search-button_mobile {
   display: none;
 }
@@ -122,10 +129,15 @@ body {
 .header__userpic {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header__button svg path {
   fill: var(--var-seventh-font-color);
+}
+
+.header__button:hover svg path {
+  fill: var(--var-hover-color);
 }
 
 .header__button_notifications {
@@ -208,6 +220,21 @@ body {
   width: 100%;
   color: var(--var-second-font-color);
   cursor: pointer;
+}
+
+.aside__button:hover{
+  color: var(--var-hover-color);
+  text-decoration: underline;
+}
+.aside__button:hover .aside__icon svg path{
+  fill: var(--var-hover-color);
+}
+
+.aside__button_active:hover{
+  color: var( --var-important-font-color);
+}
+.aside__button_active:hover .aside__icon svg path{
+  fill: var( --var-important-font-color);
 }
 
 .aside__button_subscriptions {
@@ -294,6 +321,10 @@ body {
   color: var(--var-main-font-color);
   font-size: 26px;
   font-weight: bold;
+  cursor: pointer;
+}
+.section__header-title:hover{
+  text-decoration: underline;
 }
 .section__header-description {
   font-size: 16px;
@@ -315,6 +346,9 @@ body {
   position: relative;
   top: 4px;
 }
+.section__subscribe-button:hover{
+  background-color: var(--var-important-dark-font-color);
+}
 .section__nav-buttons {
   display: flex;
   align-items: center;
@@ -326,6 +360,14 @@ body {
   background-color: var(--var-section-nav-color);
   border-radius: 14px;
 }
+
+.section__nav-button:hover{
+  background-color: var(--var-hover-color);
+}
+
+/* .section__nav-button:hover svg path{
+  fill: var(--var-hover-color);
+} */
 
 .section__nav-button_left svg {
   margin: 0 11px 0 9px;
@@ -387,6 +429,9 @@ body {
   font-weight: bold;
   color: var(--var-main-font-color);
   margin-bottom: 4px;
+}
+.video-item__title:hover{
+  text-decoration: underline;
 }
 .video-item__description {
   display: flex;

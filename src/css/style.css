@@ -47,6 +47,10 @@ body {
   fill: var(--var-burger-button-color);
 }
 
+.header__burger-button:hover svg path {
+  fill: var(--var-burger-button-hover-color);
+}
+
 .header__logo {
   width: 116px;
 }
@@ -83,6 +87,10 @@ body {
   padding: 0 17px 0 23px;
 }
 
+.header__search-bar:has(.header__search-input:focus) {
+  outline: 2px solid var(--var-third-font-color);
+}
+
 .header__search-input {
   max-width: calc(100% - 30px);
   flex: 1;
@@ -112,6 +120,10 @@ body {
 
 .header__search-button svg path {
   fill: var(--var-accent-font-color);
+}
+
+.header__search-button:hover svg path {
+  fill: var(--var-burger-button-hover-color);
 }
 
 .header__search-button_mobile {
@@ -222,19 +234,19 @@ body {
   cursor: pointer;
 }
 
-.aside__button:hover{
+.aside__button:hover {
   color: var(--var-hover-color);
   text-decoration: underline;
 }
-.aside__button:hover .aside__icon svg path{
+.aside__button:hover .aside__icon svg path {
   fill: var(--var-hover-color);
 }
 
-.aside__button_active:hover{
-  color: var( --var-important-font-color);
+.aside__button_active:hover {
+  color: var(--var-important-font-color);
 }
-.aside__button_active:hover .aside__icon svg path{
-  fill: var( --var-important-font-color);
+.aside__button_active:hover .aside__icon svg path {
+  fill: var(--var-important-font-color);
 }
 
 .aside__button_subscriptions {
@@ -323,7 +335,7 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-.section__header-title:hover{
+.section__header-title:hover {
   text-decoration: underline;
 }
 .section__header-description {
@@ -346,7 +358,7 @@ body {
   position: relative;
   top: 4px;
 }
-.section__subscribe-button:hover{
+.section__subscribe-button:hover {
   background-color: var(--var-important-dark-font-color);
 }
 .section__nav-buttons {
@@ -361,7 +373,7 @@ body {
   border-radius: 14px;
 }
 
-.section__nav-button:hover{
+.section__nav-button:hover {
   background-color: var(--var-hover-color);
 }
 
@@ -430,7 +442,7 @@ body {
   color: var(--var-main-font-color);
   margin-bottom: 4px;
 }
-.video-item__title:hover{
+.video-item:hover .video-item__title {
   text-decoration: underline;
 }
 .video-item__description {

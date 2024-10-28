@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 78px;
-  padding: 0 0 40px 16px;
+  padding: 10px 0 40px 16px;
   color: var(--var-second-font-color);
 }
 

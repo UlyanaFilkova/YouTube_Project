@@ -73,7 +73,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-optical-sizing: auto;

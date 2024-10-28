@@ -7,26 +7,18 @@
 }
 
 /* Убираем внутренние отступы */
-ul[class],
-ol[class] {
+ul[class] {
   padding: 0;
 }
 
 /* Убираем внешние отступы */
 body,
-h1,
 h2,
 h3,
 h4,
 p,
 ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
+li {
   margin: 0;
 }
 
@@ -43,17 +35,16 @@ button {
   outline: none;
 }
 
-/* Выставляем основные настройки по-умолчанию для body */
+/* Выставляем основные настройки по-умолчанию для body
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
   text-rendering: optimizeSpeed;
-}
+} */
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-ul[class],
-ol[class] {
+ul[class] {
   list-style: none;
 }
 
@@ -76,18 +67,6 @@ article > * + * {
 
 /* Наследуем шрифты для инпутов и кнопок */
 input,
-button,
-textarea,
-select {
+button{
   font: inherit;
-}
-
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
 }

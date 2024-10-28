@@ -4,7 +4,6 @@ html,
 body {
   height: 100%;
   margin: 0;
-  overflow-x: hidden;
   background-color: var(--var-main-bg-color);
 }
 
@@ -14,12 +13,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 100%;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-optical-sizing: auto;
   font-style: normal;
-  overflow-x: hidden;
 }
 
 /* #region HEADER*/
@@ -223,7 +220,7 @@ body {
   gap: 23px;
 }
 
-.aside__h4 {
+.aside__3 {
   color: var(--var-accent-font-color);
   font-size: 18px;
   font-weight: bold;
@@ -303,6 +300,8 @@ body {
 }
 
 .section {
+  width: calc(100vw - 273px);
+  overflow-x: hidden;
 }
 .section__header {
   display: flex;
@@ -408,6 +407,7 @@ body {
 .video-item {
   width: 250px;
   cursor: pointer;
+  flex-shrink: 0;
 }
 .video-item__img {
   width: 100%;

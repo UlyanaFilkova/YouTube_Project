@@ -30,7 +30,7 @@ body {
 .header__left {
   width: 196px;
   height: 100%;
-  padding-left: 31px;
+  padding-left: 21px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,14 +39,18 @@ body {
 .header__burger-button {
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
 }
 .header__burger-button svg path {
   fill: var(--var-burger-button-color);
 }
 
-.header__burger-button:hover svg path {
-  fill: var(--var-burger-button-hover-color);
+.header__burger-button:hover {
+  background-color: var(--var-bgc-hover-color);
+  border-radius: 20px;
 }
 
 .header__logo {
@@ -133,14 +137,26 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 31px;
 }
 
 .header__button,
 .header__userpic {
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
+}
+
+.header__button{
+  width: 44px;
+  height: 44px;
+  
+}
+
+.header__button:hover{
+  background-color: var(--var-bgc-hover-color);
+  border-radius: 22px;
 }
 
 .header__button svg path {
@@ -157,8 +173,8 @@ body {
 
 .header__notifications {
   position: absolute;
-  top: -6px;
-  left: 9px;
+  top: 2px;
+  left: 19px;
   box-sizing: border-box;
   width: 19px;
   height: 19px;

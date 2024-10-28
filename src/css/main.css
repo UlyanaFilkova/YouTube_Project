@@ -84,6 +84,7 @@ body {
   flex: 1;
   display: flex;
   gap: 60px;
+  overflow-x: hidden;
 }
 
 .nav-mobile {

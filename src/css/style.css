@@ -2,7 +2,6 @@
 
 html,
 body {
-  height: 100%;
   margin: 0;
   background-color: var(--var-main-bg-color);
 }
@@ -199,32 +198,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 103px;
-  padding: 0 0 40px 31px;
+  gap: 78px;
+  padding: 0 0 40px 16px;
   color: var(--var-second-font-color);
 }
 
 .aside__nav {
   display: flex;
   flex-direction: column;
-  gap: 58px;
+  gap: 46px;
 }
 
 .aside__ul {
   display: flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 13px;
+  transform: translateY(-9px);
 }
 
 .aside__ul_subscriptions {
-  gap: 23px;
+  gap: 13px;
 }
 
-.aside__3 {
+.aside__h3 {
   color: var(--var-accent-font-color);
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 7px;
+  margin-bottom: 15px;
+  padding-left: 15px;
 }
 
 .aside__button {
@@ -235,11 +236,14 @@ body {
   width: 100%;
   color: var(--var-second-font-color);
   cursor: pointer;
+  height: 36px;
+  padding-left: 15px;
 }
 
 .aside__button:hover {
   color: var(--var-hover-color);
-  text-decoration: underline;
+  background-color: var(--var-bgc-hover-color);
+  border-radius: 20px;
 }
 .aside__button:hover .aside__icon svg path {
   fill: var(--var-hover-color);
@@ -341,7 +345,7 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-.section__header-title:hover {
+.section__header-title_channel:hover {
   text-decoration: underline;
 }
 .section__header-description {

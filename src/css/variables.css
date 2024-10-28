@@ -23,6 +23,7 @@
   --var-mobile-nav-line-color: #f1f1f1;
   --var-mobile-nav-icon-color: #c2c2c2;
   --var-hover-color: #7d7d80;
+  --var-bgc-hover-color: #f2efef;
 }
 
 .dark_mode {
@@ -48,4 +49,5 @@
   --var-mobile-nav-line-color: #77777b;
   --var-mobile-nav-icon-color: #747478;
   --var-hover-color: #c8c4c4;
+  --var-bgc-hover-color: #454548;
 }

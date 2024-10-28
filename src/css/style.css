@@ -175,6 +175,9 @@ body {
   text-align: center;
   font-size: 12px;
 }
+.dark_mode .header__notifications {
+  border: none;
+}
 .header__userpic {
   width: 40px;
   height: 40px;

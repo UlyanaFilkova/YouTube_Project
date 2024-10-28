@@ -87,7 +87,8 @@ body {
   padding: 0 17px 0 23px;
 }
 
-.header__search-bar:has(.header__search-input:focus) {
+.header__search-bar:has(.header__search-input:focus),
+.header__search-bar:hover {
   outline: 2px solid var(--var-third-font-color);
 }
 

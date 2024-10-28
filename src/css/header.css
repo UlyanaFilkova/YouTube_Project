@@ -115,7 +115,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 31px;
+    gap: 32px;
   }
   
   .header__button,
